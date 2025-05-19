@@ -18,7 +18,7 @@ export default function App() {
     setProgress(10);
 
     try {
-      const res = await fetch('https://youtube-mp3-api.onrender.com/api/convert', {
+      const res = await fetch('https://youtube-mp3-api.onrender-0896.com/api/convert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url })
